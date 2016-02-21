@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <title>Marble</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+        <meta name="viewport" content="width=device-width">
+        <script>
+            // Picture element HTML5 shiv
+            document.createElement( "picture" );
+        </script>
+        <script src="https://cdn.rawgit.com/scottjehl/picturefill/master/dist/picturefill.min.js" async></script>
+    </head>
+    
+    <body>
+        
+        <header>
+            <div class="wrapper">
+                <h1 class="logo">Marble</h1>
+                <nav>
+                    <h2>Main Navigation</h2>
+                    <div id="burger-nav"></div>
+                    <ul>
+                        <li><a href="" class="current">Home</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Journal</a></li>
+                        <li><a href="">Service</a></li>
+                        <li><a href="">Features</a></li>
+                        <li><a href="">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        
+        <div id="main-banner">
+            <picture>
+                <source srcset="images/banner-s.jpg" media="(max-width: 480px)">
+                <source srcset="images/banner-m.jpg" media="(max-width: 768px)">
+                <img srcset="images/banner.jpg" alt="banner">
+            </picture> 
+        </div>
+        
+        <main class="wrapper">
+        
+            <section id="selling-points">
+                
+                <ul>
+                    <li>
+                        <img src="images/icon-1.png" alt="selling point">
+                        <h3>Pellentesque</h3>
+                        <p>Nulla vitae  libero, a pharetra augue. Integer posuere erat a ante venenatis condimentum velit dapibus.</p>
+                    </li>
+                    <li>
+                        <img src="images/icon-2.png" alt="selling point">
+                        <h3>Pellentesque</h3>
+                        <p>Nulla vitae  libero, a pharetra augue. Integer posuere erat a ante venenatis condimentum velit dapibus.</p>
+                    </li>
+                    <li>
+                        <img src="images/icon-3.png" alt="selling point">
+                        <h3>Pellentesque</h3>
+                        <p>Nulla vitae  libero, a pharetra augue. Integer posuere erat a ante venenatis condimentum velit dapibus.</p>
+                    </li>
+                    <li>
+                        <img src="images/icon-4.png" alt="selling point">
+                        <h3>Pellentesque</h3>
+                        <p>Nulla vitae  libero, a pharetra augue. Integer posuere erat a ante venenatis condimentum velit dapibus.</p>
+                    </li>
+                </ul>
+                
+            </section>
+            
+            <section id="latest-work">
+                <h2>Our Latest Works</h3>
+                <ul>
+                    <li>
+                        <img src="images/snap-1.jpg" alt="work">
+                        <h3>Nobis Business Card</h3>
+                        <p class="tags">Business Card, Graphic</p>
+                        <p>Sed posuere consectetur est at lobortis. Porta sagittis lacus vel augue laoreet rutrum.</p>
+                    </li>
+                    <li>
+                        <img src="images/snap-2.jpg" alt="work">
+                        <h3>Nobis Business Card</h3>
+                        <p class="tags">Business Card, Graphic</p>
+                        <p>Sed posuere consectetur est at lobortis. Porta sagittis lacus vel augue laoreet rutrum.</p>
+                    </li>
+                    <li>
+                        <img src="images/snap-3.jpg" alt="work">
+                        <h3>Nobis Business Card</h3>
+                        <p class="tags">Business Card, Graphic</p>
+                        <p>Sed posuere consectetur est at lobortis. Porta sagittis lacus vel augue laoreet rutrum.</p>
+                    </li>
+                </ul>
+            </section>
+        
+        </main>
+        
+        <div id="quote">
+            <blockquote>Cras mattis consectetur purus sit amet fermentum. Donec id elit non mi porta gravida at eget metus. Duis mollis, est non commodo luctus erat porttitor. </blockquote>
+        </div>
+        
+        <footer>
+            <div class="wrapper">
+                <ul>
+                    <li><h4>Get In Touch</h4></li>
+                    <li>Fusce dapibus, tellus commodo, tortor mauris condimentum utellus fermentum, porta sem malesuada magna.</li>
+                    <li>Moonshine Street No: 14/05</li>
+                    <li>Light City, Jupiter</li>
+                    <li>0247 541 65 87</li>
+                    <li>support@longwave.com</li>
+                </ul>
+                <ul>
+                    <li><h4>Twitter</h4></li>
+                    <li class="tw">Donec ullamcorper metus auctor fringilla. Nullam quis risus eget.</li>
+                    <li class="tw">Donec ullamcorper metus auctor fringilla. Nullam quis risus eget.</li>
+                    <li class="tw">Donec ullamcorper metus auctor fringilla. Nullam quis risus eget.</li>
+                </ul>
+                <ul>
+                    <li><h4>Popular Posts</h4></li>
+                    <li>Vivamus sagittis lacus vel augue laoreet rutrum dolor auctor. <br />14 Nov, 2012</li>
+                    <li>Vivamus sagittis lacus vel augue laoreet rutrum dolor auctor. <br />14 Nov, 2012</li>
+                    <li>Vivamus sagittis lacus vel augue laoreet rutrum dolor auctor. <br />14 Nov, 2012</li>
+                </ul>
+                <ul>
+                    <li><h4>About Us</h4></li>
+                    <li>Vestibulum id ligula porta felis euismod semper. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit.</li>
+                    <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus curabitur blandit tempus.</li>
+                </ul>
+                <div id="copyright">&copy; 2015 Marble. All rights reserved. Theme by elemis.</div>
+            </div>
+        </footer>
+        
+    </body>
+    
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="menu.js"></script>
+
+</html>
