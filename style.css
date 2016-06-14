@@ -212,6 +212,10 @@ footer li.tw{
     margin: 20px 0;
 }
 
+#selling-points li:nth-child(odd){
+    clear: both;
+}
+
 footer ul{
     width: 50%;
 }
